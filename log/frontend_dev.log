@@ -1,0 +1,1390 @@
+Aug 15 10:42:57 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:42:57 symfony [info] {sfRouting} connect "/"
+Aug 15 10:42:57 symfony [info] {sfRouting} connect "/symfony/:action/*"
+Aug 15 10:42:57 symfony [info] {sfRouting} connect "/:module"
+Aug 15 10:42:57 symfony [info] {sfRouting} connect "/:module/:action/*"
+Aug 15 10:42:57 symfony [info] {sfContext} initialization
+Aug 15 10:42:57 symfony [info] {sfController} initialization
+Aug 15 10:42:57 symfony [info] {sfRouting} match route [homepage] "/"
+Aug 15 10:42:57 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Aug 15 10:42:57 symfony [info] {sfController} dispatch request
+Aug 15 10:42:57 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:42:57 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:42:57 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:42:57 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:42:57 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:42:57 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Aug 15 10:42:57 symfony [info] {sfView} initialize view for "default/index"
+Aug 15 10:42:57 symfony [info] {sfView} render "/opt/local/lib/php/data/symfony/modules/default/templates/indexSuccess.php"
+Aug 15 10:42:57 symfony [info] {sfView} decorate content with "/opt/local/lib/php/data/symfony/modules/default/templates/defaultLayout.php"
+Aug 15 10:42:57 symfony [info] {sfView} render "/opt/local/lib/php/data/symfony/modules/default/templates/defaultLayout.php"
+Aug 15 10:42:57 symfony [info] {sfFilter} render to client
+Aug 15 10:42:57 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:42:57 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:42:57 symfony [info] {sfResponse} send content (20964 o)
+Aug 15 10:42:57 symfony [info] {sfTimerManager} Configuration 32.60 ms (9)
+Aug 15 10:42:57 symfony [info] {sfTimerManager} Action "default/index" 0.11 ms (1)
+Aug 15 10:42:57 symfony [info] {sfTimerManager} View "Success" for "default/index" 17.78 ms (1)
+Aug 15 10:43:46 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:43:46 symfony [info] {sfContext} initialization
+Aug 15 10:43:46 symfony [info] {sfController} initialization
+Aug 15 10:43:46 symfony [info] {sfRouting} match route [default_index] "/:module"
+Aug 15 10:43:46 symfony [info] {sfRequest} request parameters array (  'module' => 'category',  'action' => 'index',)
+Aug 15 10:43:46 symfony [info] {sfController} dispatch request
+Aug 15 10:43:46 symfony [info] {sfController} action "category/index" does not exist
+Aug 15 10:43:46 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:43:46 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:43:46 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:43:46 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:43:46 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:43:46 symfony [info] {sfAction} call "defaultActions->executeError404()"
+Aug 15 10:43:46 symfony [info] {sfView} initialize view for "default/error404"
+Aug 15 10:43:46 symfony [info] {sfView} render "/opt/local/lib/php/data/symfony/modules/default/templates/error404Success.php"
+Aug 15 10:43:46 symfony [info] {sfView} decorate content with "/opt/local/lib/php/data/symfony/modules/default/templates/defaultLayout.php"
+Aug 15 10:43:46 symfony [info] {sfView} render "/opt/local/lib/php/data/symfony/modules/default/templates/defaultLayout.php"
+Aug 15 10:43:46 symfony [info] {sfFilter} render to client
+Aug 15 10:43:46 symfony [info] {sfResponse} send status "HTTP/1.0 404 Not Found"
+Aug 15 10:43:46 symfony [info] {sfResponse} send header "Status": "404 Not Found"
+Aug 15 10:43:46 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:43:46 symfony [info] {sfResponse} send content (20475 o)
+Aug 15 10:43:46 symfony [info] {sfTimerManager} Configuration 2.47 ms (10)
+Aug 15 10:43:46 symfony [info] {sfTimerManager} Action "default/error404" 0.11 ms (1)
+Aug 15 10:43:46 symfony [info] {sfTimerManager} View "Success" for "default/error404" 13.12 ms (1)
+Aug 15 10:43:59 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:43:59 symfony [info] {sfContext} initialization
+Aug 15 10:43:59 symfony [info] {sfController} initialization
+Aug 15 10:43:59 symfony [info] {sfRouting} match route [default_index] "/:module"
+Aug 15 10:43:59 symfony [info] {sfRequest} request parameters array (  'module' => 'category',  'action' => 'index',)
+Aug 15 10:43:59 symfony [info] {sfController} dispatch request
+Aug 15 10:43:59 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:43:59 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:43:59 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:43:59 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:43:59 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:43:59 symfony [info] {sfAction} call "categoryActions->executeIndex()"
+Aug 15 10:43:59 symfony [info] {sfAction} forward to action "default/module"
+Aug 15 10:43:59 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:43:59 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:43:59 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:43:59 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:43:59 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:43:59 symfony [info] {sfAction} call "defaultActions->executeModule()"
+Aug 15 10:43:59 symfony [info] {sfView} initialize view for "default/module"
+Aug 15 10:43:59 symfony [info] {sfView} render "/opt/local/lib/php/data/symfony/modules/default/templates/moduleSuccess.php"
+Aug 15 10:43:59 symfony [info] {sfView} decorate content with "/opt/local/lib/php/data/symfony/modules/default/templates/defaultLayout.php"
+Aug 15 10:43:59 symfony [info] {sfView} render "/opt/local/lib/php/data/symfony/modules/default/templates/defaultLayout.php"
+Aug 15 10:43:59 symfony [info] {sfFilter} render to client
+Aug 15 10:43:59 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:43:59 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:43:59 symfony [info] {sfResponse} send content (22207 o)
+Aug 15 10:43:59 symfony [info] {sfTimerManager} Configuration 25.20 ms (14)
+Aug 15 10:43:59 symfony [info] {sfTimerManager} Action "category/index" 20.56 ms (1)
+Aug 15 10:43:59 symfony [info] {sfTimerManager} Action "default/module" 0.10 ms (1)
+Aug 15 10:43:59 symfony [info] {sfTimerManager} View "Success" for "default/module" 13.12 ms (1)
+Aug 15 10:44:38 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:44:38 symfony [info] {sfContext} initialization
+Aug 15 10:44:38 symfony [info] {sfController} initialization
+Aug 15 10:44:38 symfony [info] {sfRouting} match route [default_index] "/:module"
+Aug 15 10:44:38 symfony [info] {sfRequest} request parameters array (  'module' => 'category',  'action' => 'index',)
+Aug 15 10:44:38 symfony [info] {sfController} dispatch request
+Aug 15 10:44:38 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:44:38 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:44:38 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:44:38 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:44:38 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:44:38 symfony [info] {sfAction} call "categoryActions->executeIndex()"
+Aug 15 10:44:38 symfony [info] {sfAction} forward to action "default/module"
+Aug 15 10:44:38 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:44:38 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:44:38 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:44:38 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:44:38 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:44:38 symfony [info] {sfAction} call "defaultActions->executeModule()"
+Aug 15 10:44:38 symfony [info] {sfView} initialize view for "default/module"
+Aug 15 10:44:38 symfony [info] {sfView} render "/opt/local/lib/php/data/symfony/modules/default/templates/moduleSuccess.php"
+Aug 15 10:44:38 symfony [info] {sfView} decorate content with "/opt/local/lib/php/data/symfony/modules/default/templates/defaultLayout.php"
+Aug 15 10:44:38 symfony [info] {sfView} render "/opt/local/lib/php/data/symfony/modules/default/templates/defaultLayout.php"
+Aug 15 10:44:38 symfony [info] {sfFilter} render to client
+Aug 15 10:44:38 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:44:38 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:44:38 symfony [info] {sfResponse} send content (22206 o)
+Aug 15 10:44:38 symfony [info] {sfTimerManager} Configuration 3.07 ms (13)
+Aug 15 10:44:38 symfony [info] {sfTimerManager} Action "category/index" 19.89 ms (1)
+Aug 15 10:44:38 symfony [info] {sfTimerManager} Action "default/module" 0.10 ms (1)
+Aug 15 10:44:38 symfony [info] {sfTimerManager} View "Success" for "default/module" 12.06 ms (1)
+Aug 15 10:44:53 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:44:53 symfony [info] {sfContext} initialization
+Aug 15 10:44:53 symfony [info] {sfController} initialization
+Aug 15 10:44:53 symfony [info] {sfRouting} match route [default_index] "/:module"
+Aug 15 10:44:53 symfony [info] {sfRequest} request parameters array (  'module' => 'category',  'action' => 'index',)
+Aug 15 10:44:53 symfony [info] {sfController} dispatch request
+Aug 15 10:44:53 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:44:53 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:44:53 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:44:53 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:44:53 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:44:53 symfony [info] {sfAction} call "categoryActions->executeIndex()"
+Aug 15 10:44:53 symfony [info] {sfAction} forward to action "default/module"
+Aug 15 10:44:53 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:44:53 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:44:53 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:44:53 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:44:53 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:44:53 symfony [info] {sfAction} call "defaultActions->executeModule()"
+Aug 15 10:44:53 symfony [info] {sfView} initialize view for "default/module"
+Aug 15 10:44:53 symfony [info] {sfView} render "/opt/local/lib/php/data/symfony/modules/default/templates/moduleSuccess.php"
+Aug 15 10:44:53 symfony [info] {sfView} decorate content with "/opt/local/lib/php/data/symfony/modules/default/templates/defaultLayout.php"
+Aug 15 10:44:53 symfony [info] {sfView} render "/opt/local/lib/php/data/symfony/modules/default/templates/defaultLayout.php"
+Aug 15 10:44:53 symfony [info] {sfFilter} render to client
+Aug 15 10:44:53 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:44:53 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:44:53 symfony [info] {sfResponse} send content (22207 o)
+Aug 15 10:44:53 symfony [info] {sfTimerManager} Configuration 2.93 ms (13)
+Aug 15 10:44:53 symfony [info] {sfTimerManager} Action "category/index" 19.76 ms (1)
+Aug 15 10:44:53 symfony [info] {sfTimerManager} Action "default/module" 0.11 ms (1)
+Aug 15 10:44:53 symfony [info] {sfTimerManager} View "Success" for "default/module" 12.18 ms (1)
+Aug 15 10:44:55 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:44:55 symfony [info] {sfContext} initialization
+Aug 15 10:44:55 symfony [info] {sfController} initialization
+Aug 15 10:44:55 symfony [info] {sfRouting} match route [default_index] "/:module"
+Aug 15 10:44:55 symfony [info] {sfRequest} request parameters array (  'module' => 'category',  'action' => 'index',)
+Aug 15 10:44:55 symfony [info] {sfController} dispatch request
+Aug 15 10:44:55 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:44:55 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:44:55 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:44:55 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:44:55 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:44:55 symfony [info] {sfAction} call "categoryActions->executeIndex()"
+Aug 15 10:44:55 symfony [info] {sfAction} forward to action "default/module"
+Aug 15 10:44:55 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:44:55 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:44:55 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:44:55 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:44:55 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:44:55 symfony [info] {sfAction} call "defaultActions->executeModule()"
+Aug 15 10:44:55 symfony [info] {sfView} initialize view for "default/module"
+Aug 15 10:44:55 symfony [info] {sfView} render "/opt/local/lib/php/data/symfony/modules/default/templates/moduleSuccess.php"
+Aug 15 10:44:55 symfony [info] {sfView} decorate content with "/opt/local/lib/php/data/symfony/modules/default/templates/defaultLayout.php"
+Aug 15 10:44:55 symfony [info] {sfView} render "/opt/local/lib/php/data/symfony/modules/default/templates/defaultLayout.php"
+Aug 15 10:44:55 symfony [info] {sfFilter} render to client
+Aug 15 10:44:55 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:44:55 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:44:55 symfony [info] {sfResponse} send content (22207 o)
+Aug 15 10:44:55 symfony [info] {sfTimerManager} Configuration 2.90 ms (13)
+Aug 15 10:44:55 symfony [info] {sfTimerManager} Action "category/index" 18.46 ms (1)
+Aug 15 10:44:55 symfony [info] {sfTimerManager} Action "default/module" 0.15 ms (1)
+Aug 15 10:44:55 symfony [info] {sfTimerManager} View "Success" for "default/module" 11.22 ms (1)
+Aug 15 10:45:03 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:45:03 symfony [info] {sfRouting} connect "/"
+Aug 15 10:45:03 symfony [info] {sfRouting} connect "/symfony/:action/*"
+Aug 15 10:45:03 symfony [info] {sfRouting} connect "/:module"
+Aug 15 10:45:03 symfony [info] {sfRouting} connect "/:module/:action/*"
+Aug 15 10:45:03 symfony [info] {sfContext} initialization
+Aug 15 10:45:03 symfony [info] {sfController} initialization
+Aug 15 10:45:03 symfony [info] {sfRouting} match route [default_index] "/:module"
+Aug 15 10:45:03 symfony [info] {sfRequest} request parameters array (  'module' => 'category',  'action' => 'index',)
+Aug 15 10:45:03 symfony [info] {sfController} dispatch request
+Aug 15 10:45:03 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:45:03 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:45:03 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:45:03 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:45:03 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:45:03 symfony [info] {sfAction} call "categoryActions->executeIndex()"
+Aug 15 10:45:03 symfony [info] {sfAction} forward to action "default/module"
+Aug 15 10:45:03 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:45:03 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:45:03 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:45:03 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:45:03 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:45:03 symfony [info] {sfAction} call "defaultActions->executeModule()"
+Aug 15 10:45:03 symfony [info] {sfView} initialize view for "default/module"
+Aug 15 10:45:03 symfony [info] {sfView} render "/opt/local/lib/php/data/symfony/modules/default/templates/moduleSuccess.php"
+Aug 15 10:45:03 symfony [info] {sfView} decorate content with "/opt/local/lib/php/data/symfony/modules/default/templates/defaultLayout.php"
+Aug 15 10:45:03 symfony [info] {sfView} render "/opt/local/lib/php/data/symfony/modules/default/templates/defaultLayout.php"
+Aug 15 10:45:03 symfony [info] {sfFilter} render to client
+Aug 15 10:45:03 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:45:03 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:45:03 symfony [info] {sfResponse} send content (23306 o)
+Aug 15 10:45:03 symfony [info] {sfTimerManager} Configuration 40.95 ms (12)
+Aug 15 10:45:03 symfony [info] {sfTimerManager} Action "category/index" 34.77 ms (1)
+Aug 15 10:45:03 symfony [info] {sfTimerManager} Action "default/module" 0.12 ms (1)
+Aug 15 10:45:03 symfony [info] {sfTimerManager} View "Success" for "default/module" 16.58 ms (1)
+Aug 15 10:45:04 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:45:04 symfony [info] {sfContext} initialization
+Aug 15 10:45:04 symfony [info] {sfController} initialization
+Aug 15 10:45:04 symfony [info] {sfRouting} match route [default_index] "/:module"
+Aug 15 10:45:04 symfony [info] {sfRequest} request parameters array (  'module' => 'category',  'action' => 'index',)
+Aug 15 10:45:04 symfony [info] {sfController} dispatch request
+Aug 15 10:45:04 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:45:04 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:45:04 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:45:04 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:45:04 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:45:04 symfony [info] {sfAction} call "categoryActions->executeIndex()"
+Aug 15 10:45:04 symfony [info] {sfAction} forward to action "default/module"
+Aug 15 10:45:04 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:45:04 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:45:04 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:45:04 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:45:04 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:45:04 symfony [info] {sfAction} call "defaultActions->executeModule()"
+Aug 15 10:45:04 symfony [info] {sfView} initialize view for "default/module"
+Aug 15 10:45:04 symfony [info] {sfView} render "/opt/local/lib/php/data/symfony/modules/default/templates/moduleSuccess.php"
+Aug 15 10:45:04 symfony [info] {sfView} decorate content with "/opt/local/lib/php/data/symfony/modules/default/templates/defaultLayout.php"
+Aug 15 10:45:04 symfony [info] {sfView} render "/opt/local/lib/php/data/symfony/modules/default/templates/defaultLayout.php"
+Aug 15 10:45:04 symfony [info] {sfFilter} render to client
+Aug 15 10:45:04 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:45:04 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:45:04 symfony [info] {sfResponse} send content (22206 o)
+Aug 15 10:45:04 symfony [info] {sfTimerManager} Configuration 2.99 ms (13)
+Aug 15 10:45:04 symfony [info] {sfTimerManager} Action "category/index" 20.14 ms (1)
+Aug 15 10:45:04 symfony [info] {sfTimerManager} Action "default/module" 0.10 ms (1)
+Aug 15 10:45:04 symfony [info] {sfTimerManager} View "Success" for "default/module" 12.65 ms (1)
+Aug 15 10:45:08 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:45:08 symfony [info] {sfContext} initialization
+Aug 15 10:45:08 symfony [info] {sfController} initialization
+Aug 15 10:45:08 symfony [info] {sfRouting} match route [default_index] "/:module"
+Aug 15 10:45:08 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'index',)
+Aug 15 10:45:08 symfony [info] {sfController} dispatch request
+Aug 15 10:45:08 symfony [info] {sfController} action "addresses/index" does not exist
+Aug 15 10:45:08 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:45:08 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:45:08 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:45:08 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:45:08 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:45:08 symfony [info] {sfAction} call "defaultActions->executeError404()"
+Aug 15 10:45:08 symfony [info] {sfView} initialize view for "default/error404"
+Aug 15 10:45:08 symfony [info] {sfView} render "/opt/local/lib/php/data/symfony/modules/default/templates/error404Success.php"
+Aug 15 10:45:08 symfony [info] {sfView} decorate content with "/opt/local/lib/php/data/symfony/modules/default/templates/defaultLayout.php"
+Aug 15 10:45:08 symfony [info] {sfView} render "/opt/local/lib/php/data/symfony/modules/default/templates/defaultLayout.php"
+Aug 15 10:45:08 symfony [info] {sfFilter} render to client
+Aug 15 10:45:08 symfony [info] {sfResponse} send status "HTTP/1.0 404 Not Found"
+Aug 15 10:45:08 symfony [info] {sfResponse} send header "Status": "404 Not Found"
+Aug 15 10:45:08 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:45:08 symfony [info] {sfResponse} send content (20482 o)
+Aug 15 10:45:08 symfony [info] {sfTimerManager} Configuration 2.28 ms (10)
+Aug 15 10:45:08 symfony [info] {sfTimerManager} Action "default/error404" 0.11 ms (1)
+Aug 15 10:45:08 symfony [info] {sfTimerManager} View "Success" for "default/error404" 12.62 ms (1)
+Aug 15 10:45:19 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:45:19 symfony [info] {sfContext} initialization
+Aug 15 10:45:19 symfony [info] {sfController} initialization
+Aug 15 10:45:19 symfony [info] {sfRouting} match route [default_index] "/:module"
+Aug 15 10:45:19 symfony [info] {sfRequest} request parameters array (  'module' => 'adddresses',  'action' => 'index',)
+Aug 15 10:45:19 symfony [info] {sfController} dispatch request
+Aug 15 10:45:19 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:45:19 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:45:19 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:45:19 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:45:19 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:45:19 symfony [info] {sfAction} call "adddressesActions->executeIndex()"
+Aug 15 10:45:19 symfony [info] {sfView} initialize view for "adddresses/index"
+Aug 15 10:45:19 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/adddresses/templates/indexSuccess.php"
+Aug 15 10:45:19 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:45:19 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:45:19 symfony [info] {sfFilter} render to client
+Aug 15 10:45:19 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:45:19 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:45:19 symfony [info] {sfResponse} send content (18283 o)
+Aug 15 10:45:19 symfony [info] {sfTimerManager} Configuration 27.67 ms (11)
+Aug 15 10:45:19 symfony [info] {sfTimerManager} Action "adddresses/index" 0.11 ms (1)
+Aug 15 10:45:19 symfony [info] {sfTimerManager} View "Success" for "adddresses/index" 15.02 ms (1)
+Aug 15 10:46:06 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:46:06 symfony [info] {sfContext} initialization
+Aug 15 10:46:06 symfony [info] {sfController} initialization
+Aug 15 10:46:06 symfony [info] {sfRouting} match route [default_index] "/:module"
+Aug 15 10:46:06 symfony [info] {sfRequest} request parameters array (  'module' => 'adddresses',  'action' => 'index',)
+Aug 15 10:46:06 symfony [info] {sfController} dispatch request
+Aug 15 10:46:06 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:46:06 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:46:06 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:46:06 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:46:06 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:46:06 symfony [info] {sfAction} call "adddressesActions->executeIndex()"
+Aug 15 10:46:06 symfony [info] {sfView} initialize view for "adddresses/index"
+Aug 15 10:46:06 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/adddresses/templates/indexSuccess.php"
+Aug 15 10:46:06 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:46:06 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:46:06 symfony [info] {sfFilter} render to client
+Aug 15 10:46:06 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:46:06 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:46:06 symfony [info] {sfResponse} send content (18293 o)
+Aug 15 10:46:06 symfony [info] {sfTimerManager} Configuration 2.41 ms (10)
+Aug 15 10:46:06 symfony [info] {sfTimerManager} Action "adddresses/index" 0.12 ms (1)
+Aug 15 10:46:06 symfony [info] {sfTimerManager} View "Success" for "adddresses/index" 13.24 ms (1)
+Aug 15 10:46:54 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:46:54 symfony [info] {sfContext} initialization
+Aug 15 10:46:54 symfony [info] {sfController} initialization
+Aug 15 10:46:54 symfony [info] {sfRouting} match route [default_index] "/:module"
+Aug 15 10:46:54 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'index',)
+Aug 15 10:46:54 symfony [info] {sfController} dispatch request
+Aug 15 10:46:54 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:46:54 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:46:54 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:46:54 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:46:54 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:46:54 symfony [info] {sfAction} call "addressesActions->executeIndex()"
+Aug 15 10:46:54 symfony [info] {sfAction} forward to action "addresses/list"
+Aug 15 10:46:54 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:46:54 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:46:54 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:46:54 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:46:54 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:46:54 symfony [info] {sfAction} call "addressesActions->executeList()"
+Aug 15 10:46:54 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:46:54 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:46:54 symfony [info] {sfCreole} executeQuery(): [2.21 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:46:55 symfony [info] {sfView} initialize view for "addresses/list"
+Aug 15 10:46:55 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/listSuccess.php"
+Aug 15 10:46:55 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:46:55 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:46:55 symfony [info] {sfFilter} render to client
+Aug 15 10:46:55 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:46:55 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:46:55 symfony [info] {sfResponse} send content (23436 o)
+Aug 15 10:46:55 symfony [info] {sfTimerManager} Configuration 29.19 ms (14)
+Aug 15 10:46:55 symfony [info] {sfTimerManager} Action "addresses/index" 63.44 ms (1)
+Aug 15 10:46:55 symfony [info] {sfTimerManager} Action "addresses/list" 39.54 ms (1)
+Aug 15 10:46:55 symfony [info] {sfTimerManager} Database 2.21 ms (1)
+Aug 15 10:46:55 symfony [info] {sfTimerManager} View "Success" for "addresses/list" 16.25 ms (1)
+Aug 15 10:47:19 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:47:19 symfony [info] {sfContext} initialization
+Aug 15 10:47:19 symfony [info] {sfController} initialization
+Aug 15 10:47:19 symfony [info] {sfRouting} match route [default_index] "/:module"
+Aug 15 10:47:19 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'index',)
+Aug 15 10:47:19 symfony [info] {sfController} dispatch request
+Aug 15 10:47:19 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:47:19 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:47:19 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:47:19 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:47:19 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:47:19 symfony [info] {sfAction} call "addressesActions->executeIndex()"
+Aug 15 10:47:19 symfony [info] {sfAction} forward to action "addresses/list"
+Aug 15 10:47:19 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:47:19 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:47:19 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:47:19 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:47:19 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:47:19 symfony [info] {sfAction} call "addressesActions->executeList()"
+Aug 15 10:47:19 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:47:19 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:47:19 symfony [info] {sfCreole} executeQuery(): [2.09 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:47:19 symfony [info] {sfView} initialize view for "addresses/list"
+Aug 15 10:47:19 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/listSuccess.php"
+Aug 15 10:47:19 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:47:19 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:47:19 symfony [info] {sfFilter} render to client
+Aug 15 10:47:19 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:47:19 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:47:19 symfony [info] {sfResponse} send content (23434 o)
+Aug 15 10:47:19 symfony [info] {sfTimerManager} Configuration 3.12 ms (13)
+Aug 15 10:47:19 symfony [info] {sfTimerManager} Action "addresses/index" 57.83 ms (1)
+Aug 15 10:47:19 symfony [info] {sfTimerManager} Action "addresses/list" 37.82 ms (1)
+Aug 15 10:47:19 symfony [info] {sfTimerManager} Database 2.09 ms (1)
+Aug 15 10:47:19 symfony [info] {sfTimerManager} View "Success" for "addresses/list" 12.32 ms (1)
+Aug 15 10:47:31 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:47:31 symfony [info] {sfContext} initialization
+Aug 15 10:47:31 symfony [info] {sfController} initialization
+Aug 15 10:47:31 symfony [info] {sfRouting} match route [default_index] "/:module"
+Aug 15 10:47:31 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'index',)
+Aug 15 10:47:31 symfony [info] {sfController} dispatch request
+Aug 15 10:47:31 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:47:31 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:47:31 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:47:31 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:47:31 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:47:31 symfony [info] {sfAction} call "addressesActions->executeIndex()"
+Aug 15 10:47:31 symfony [info] {sfAction} forward to action "addresses/list"
+Aug 15 10:47:31 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:47:31 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:47:31 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:47:31 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:47:31 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:47:31 symfony [info] {sfAction} call "addressesActions->executeList()"
+Aug 15 10:47:31 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:47:31 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:47:31 symfony [info] {sfCreole} executeQuery(): [2.12 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:47:31 symfony [info] {sfView} initialize view for "addresses/list"
+Aug 15 10:47:31 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/listSuccess.php"
+Aug 15 10:47:31 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:47:31 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:47:31 symfony [info] {sfFilter} render to client
+Aug 15 10:47:31 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:47:31 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:47:31 symfony [info] {sfResponse} send content (23443 o)
+Aug 15 10:47:31 symfony [info] {sfTimerManager} Configuration 2.93 ms (13)
+Aug 15 10:47:31 symfony [info] {sfTimerManager} Action "addresses/index" 58.23 ms (1)
+Aug 15 10:47:31 symfony [info] {sfTimerManager} Action "addresses/list" 38.56 ms (1)
+Aug 15 10:47:31 symfony [info] {sfTimerManager} Database 2.11 ms (1)
+Aug 15 10:47:31 symfony [info] {sfTimerManager} View "Success" for "addresses/list" 12.22 ms (1)
+Aug 15 10:47:48 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:47:48 symfony [info] {sfContext} initialization
+Aug 15 10:47:48 symfony [info] {sfController} initialization
+Aug 15 10:47:48 symfony [info] {sfRouting} match route [default_index] "/:module"
+Aug 15 10:47:48 symfony [info] {sfRequest} request parameters array (  'module' => 'category',  'action' => 'index',)
+Aug 15 10:47:48 symfony [info] {sfController} dispatch request
+Aug 15 10:47:48 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:47:48 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:47:48 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:47:48 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:47:48 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:47:48 symfony [info] {sfAction} call "categoryActions->executeIndex()"
+Aug 15 10:47:48 symfony [info] {sfAction} forward to action "category/list"
+Aug 15 10:47:48 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:47:48 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:47:48 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:47:48 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:47:48 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:47:48 symfony [info] {sfAction} call "categoryActions->executeList()"
+Aug 15 10:47:49 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:47:49 symfony [info] {sfCreole} prepareStatement(): SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:47:49 symfony [info] {sfCreole} executeQuery(): [2.02 ms] SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:47:49 symfony [info] {sfView} initialize view for "category/list"
+Aug 15 10:47:49 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/category/templates/listSuccess.php"
+Aug 15 10:47:49 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:47:49 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:47:49 symfony [info] {sfFilter} render to client
+Aug 15 10:47:49 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:47:49 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:47:49 symfony [info] {sfResponse} send content (23002 o)
+Aug 15 10:47:49 symfony [info] {sfTimerManager} Configuration 19.83 ms (14)
+Aug 15 10:47:49 symfony [info] {sfTimerManager} Action "category/index" 75.30 ms (1)
+Aug 15 10:47:49 symfony [info] {sfTimerManager} Action "category/list" 37.35 ms (1)
+Aug 15 10:47:49 symfony [info] {sfTimerManager} Database 2.02 ms (1)
+Aug 15 10:47:49 symfony [info] {sfTimerManager} View "Success" for "category/list" 29.63 ms (1)
+Aug 15 10:47:51 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:47:51 symfony [info] {sfContext} initialization
+Aug 15 10:47:51 symfony [info] {sfController} initialization
+Aug 15 10:47:51 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:47:51 symfony [info] {sfRequest} request parameters array (  'module' => 'category',  'action' => 'create',)
+Aug 15 10:47:51 symfony [info] {sfController} dispatch request
+Aug 15 10:47:51 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:47:51 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:47:51 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:47:51 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:47:51 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:47:51 symfony [info] {sfAction} call "categoryActions->executeCreate()"
+Aug 15 10:47:51 symfony [info] {sfAction} change template to "edit"
+Aug 15 10:47:51 symfony [info] {sfView} initialize view for "category/create"
+Aug 15 10:47:51 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/category/templates/editSuccess.php"
+Aug 15 10:47:51 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:47:51 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:47:51 symfony [info] {sfFilter} render to client
+Aug 15 10:47:51 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:47:51 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:47:51 symfony [info] {sfResponse} send content (19062 o)
+Aug 15 10:47:51 symfony [info] {sfTimerManager} Configuration 2.26 ms (10)
+Aug 15 10:47:51 symfony [info] {sfTimerManager} Action "category/create" 3.10 ms (1)
+Aug 15 10:47:51 symfony [info] {sfTimerManager} View "Success" for "category/create" 14.11 ms (1)
+Aug 15 10:47:56 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:47:56 symfony [info] {sfContext} initialization
+Aug 15 10:47:56 symfony [info] {sfController} initialization
+Aug 15 10:47:56 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:47:56 symfony [info] {sfRequest} request parameters array (  'module' => 'category',  'action' => 'update',  'id' => '',  'cat_name' => 'business',  'commit' => 'save',)
+Aug 15 10:47:56 symfony [info] {sfController} dispatch request
+Aug 15 10:47:56 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:47:56 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:47:56 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:47:56 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:47:56 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:47:56 symfony [info] {sfAction} call "categoryActions->executeUpdate()"
+Aug 15 10:47:56 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:47:56 symfony [info] {sfCreole} beginning transaction.
+Aug 15 10:47:56 symfony [info] {sfCreole} beginning transaction.
+Aug 15 10:47:56 symfony [info] {sfCreole} prepareStatement(): INSERT INTO ab_category (CAT_NAME,CREATED_AT,UPDATED_AT,ID) VALUES (?,?,?,?)
+Aug 15 10:47:56 symfony [info] {sfCreole} executeUpdate(): INSERT INTO ab_category (CAT_NAME,CREATED_AT,UPDATED_AT,ID) VALUES ('business','2009-08-15 10:47:56 +0800','2009-08-15 10:47:56 +0800',1)
+Aug 15 10:47:56 symfony [info] {sfCreole} committing transaction.
+Aug 15 10:47:56 symfony [info] {sfCreole} committing transaction.
+Aug 15 10:47:56 symfony [info] {sfAction} redirect to "http://coscupdemo/frontend_dev.php/category/show/id/1"
+Aug 15 10:47:56 symfony [info] {sfResponse} send status "HTTP/1.0 302 Found"
+Aug 15 10:47:56 symfony [info] {sfResponse} send header "Location": "http://coscupdemo/frontend_dev.php/category/show/id/1"
+Aug 15 10:47:56 symfony [info] {sfResponse} send content (124 o)
+Aug 15 10:47:56 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:47:56 symfony [info] {sfContext} initialization
+Aug 15 10:47:56 symfony [info] {sfController} initialization
+Aug 15 10:47:56 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:47:56 symfony [info] {sfRequest} request parameters array (  'module' => 'category',  'action' => 'show',  'id' => '1',)
+Aug 15 10:47:56 symfony [info] {sfController} dispatch request
+Aug 15 10:47:56 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:47:56 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:47:56 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:47:56 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:47:56 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:47:56 symfony [info] {sfAction} call "categoryActions->executeShow()"
+Aug 15 10:47:56 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:47:56 symfony [info] {sfCreole} prepareStatement(): SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category WHERE ab_category.ID=?
+Aug 15 10:47:56 symfony [info] {sfCreole} executeQuery(): [2.39 ms] SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category WHERE ab_category.ID=1
+Aug 15 10:47:56 symfony [info] {sfView} initialize view for "category/show"
+Aug 15 10:47:56 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/category/templates/showSuccess.php"
+Aug 15 10:47:56 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:47:56 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:47:56 symfony [info] {sfFilter} render to client
+Aug 15 10:47:56 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:47:56 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:47:56 symfony [info] {sfResponse} send content (21315 o)
+Aug 15 10:47:56 symfony [info] {sfTimerManager} Configuration 2.25 ms (10)
+Aug 15 10:47:56 symfony [info] {sfTimerManager} Action "category/show" 37.87 ms (1)
+Aug 15 10:47:56 symfony [info] {sfTimerManager} Database 2.39 ms (1)
+Aug 15 10:47:56 symfony [info] {sfTimerManager} View "Success" for "category/show" 12.73 ms (1)
+Aug 15 10:47:58 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:47:58 symfony [info] {sfContext} initialization
+Aug 15 10:47:58 symfony [info] {sfController} initialization
+Aug 15 10:47:58 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:47:58 symfony [info] {sfRequest} request parameters array (  'module' => 'category',  'action' => 'list',)
+Aug 15 10:47:58 symfony [info] {sfController} dispatch request
+Aug 15 10:47:58 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:47:58 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:47:58 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:47:58 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:47:58 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:47:58 symfony [info] {sfAction} call "categoryActions->executeList()"
+Aug 15 10:47:58 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:47:58 symfony [info] {sfCreole} prepareStatement(): SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:47:58 symfony [info] {sfCreole} executeQuery(): [2.07 ms] SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:47:58 symfony [info] {sfView} initialize view for "category/list"
+Aug 15 10:47:58 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/category/templates/listSuccess.php"
+Aug 15 10:47:58 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:47:58 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:47:58 symfony [info] {sfFilter} render to client
+Aug 15 10:47:58 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:47:58 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:47:58 symfony [info] {sfResponse} send content (21092 o)
+Aug 15 10:47:58 symfony [info] {sfTimerManager} Configuration 2.21 ms (10)
+Aug 15 10:47:58 symfony [info] {sfTimerManager} Action "category/list" 37.15 ms (1)
+Aug 15 10:47:58 symfony [info] {sfTimerManager} Database 2.06 ms (1)
+Aug 15 10:47:58 symfony [info] {sfTimerManager} View "Success" for "category/list" 12.73 ms (1)
+Aug 15 10:47:59 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:47:59 symfony [info] {sfContext} initialization
+Aug 15 10:47:59 symfony [info] {sfController} initialization
+Aug 15 10:47:59 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:47:59 symfony [info] {sfRequest} request parameters array (  'module' => 'category',  'action' => 'create',)
+Aug 15 10:47:59 symfony [info] {sfController} dispatch request
+Aug 15 10:47:59 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:47:59 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:47:59 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:47:59 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:47:59 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:47:59 symfony [info] {sfAction} call "categoryActions->executeCreate()"
+Aug 15 10:47:59 symfony [info] {sfAction} change template to "edit"
+Aug 15 10:47:59 symfony [info] {sfView} initialize view for "category/create"
+Aug 15 10:47:59 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/category/templates/editSuccess.php"
+Aug 15 10:47:59 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:47:59 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:47:59 symfony [info] {sfFilter} render to client
+Aug 15 10:47:59 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:47:59 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:47:59 symfony [info] {sfResponse} send content (19068 o)
+Aug 15 10:47:59 symfony [info] {sfTimerManager} Configuration 2.24 ms (10)
+Aug 15 10:47:59 symfony [info] {sfTimerManager} Action "category/create" 3.13 ms (1)
+Aug 15 10:47:59 symfony [info] {sfTimerManager} View "Success" for "category/create" 13.40 ms (1)
+Aug 15 10:48:08 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:48:08 symfony [info] {sfContext} initialization
+Aug 15 10:48:08 symfony [info] {sfController} initialization
+Aug 15 10:48:08 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:48:08 symfony [info] {sfRequest} request parameters array (  'module' => 'category',  'action' => 'update',  'id' => '',  'cat_name' => '台湾mm',  'commit' => 'save',)
+Aug 15 10:48:08 symfony [info] {sfController} dispatch request
+Aug 15 10:48:08 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:48:08 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:48:08 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:48:08 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:48:08 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:48:08 symfony [info] {sfAction} call "categoryActions->executeUpdate()"
+Aug 15 10:48:08 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:48:08 symfony [info] {sfCreole} beginning transaction.
+Aug 15 10:48:08 symfony [info] {sfCreole} beginning transaction.
+Aug 15 10:48:08 symfony [info] {sfCreole} prepareStatement(): INSERT INTO ab_category (CAT_NAME,CREATED_AT,UPDATED_AT,ID) VALUES (?,?,?,?)
+Aug 15 10:48:08 symfony [info] {sfCreole} executeUpdate(): INSERT INTO ab_category (CAT_NAME,CREATED_AT,UPDATED_AT,ID) VALUES ('台湾mm','2009-08-15 10:48:08 +0800','2009-08-15 10:48:08 +0800',2)
+Aug 15 10:48:08 symfony [info] {sfCreole} committing transaction.
+Aug 15 10:48:08 symfony [info] {sfCreole} committing transaction.
+Aug 15 10:48:08 symfony [info] {sfAction} redirect to "http://coscupdemo/frontend_dev.php/category/show/id/2"
+Aug 15 10:48:08 symfony [info] {sfResponse} send status "HTTP/1.0 302 Found"
+Aug 15 10:48:08 symfony [info] {sfResponse} send header "Location": "http://coscupdemo/frontend_dev.php/category/show/id/2"
+Aug 15 10:48:08 symfony [info] {sfResponse} send content (124 o)
+Aug 15 10:48:08 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:48:08 symfony [info] {sfContext} initialization
+Aug 15 10:48:08 symfony [info] {sfController} initialization
+Aug 15 10:48:08 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:48:08 symfony [info] {sfRequest} request parameters array (  'module' => 'category',  'action' => 'show',  'id' => '2',)
+Aug 15 10:48:08 symfony [info] {sfController} dispatch request
+Aug 15 10:48:08 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:48:08 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:48:08 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:48:08 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:48:08 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:48:08 symfony [info] {sfAction} call "categoryActions->executeShow()"
+Aug 15 10:48:08 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:48:08 symfony [info] {sfCreole} prepareStatement(): SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category WHERE ab_category.ID=?
+Aug 15 10:48:08 symfony [info] {sfCreole} executeQuery(): [2.33 ms] SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category WHERE ab_category.ID=2
+Aug 15 10:48:08 symfony [info] {sfView} initialize view for "category/show"
+Aug 15 10:48:08 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/category/templates/showSuccess.php"
+Aug 15 10:48:08 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:48:08 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:48:08 symfony [info] {sfFilter} render to client
+Aug 15 10:48:08 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:48:08 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:48:08 symfony [info] {sfResponse} send content (21316 o)
+Aug 15 10:48:08 symfony [info] {sfTimerManager} Configuration 2.32 ms (10)
+Aug 15 10:48:08 symfony [info] {sfTimerManager} Action "category/show" 37.64 ms (1)
+Aug 15 10:48:08 symfony [info] {sfTimerManager} Database 2.33 ms (1)
+Aug 15 10:48:08 symfony [info] {sfTimerManager} View "Success" for "category/show" 12.49 ms (1)
+Aug 15 10:48:13 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:48:13 symfony [info] {sfContext} initialization
+Aug 15 10:48:13 symfony [info] {sfController} initialization
+Aug 15 10:48:13 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:48:13 symfony [info] {sfRequest} request parameters array (  'module' => 'category',  'action' => 'list',)
+Aug 15 10:48:13 symfony [info] {sfController} dispatch request
+Aug 15 10:48:13 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:48:13 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:48:13 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:48:13 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:48:13 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:48:13 symfony [info] {sfAction} call "categoryActions->executeList()"
+Aug 15 10:48:13 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:48:13 symfony [info] {sfCreole} prepareStatement(): SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:48:13 symfony [info] {sfCreole} executeQuery(): [2.02 ms] SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:48:13 symfony [info] {sfView} initialize view for "category/list"
+Aug 15 10:48:13 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/category/templates/listSuccess.php"
+Aug 15 10:48:13 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:48:13 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:48:13 symfony [info] {sfFilter} render to client
+Aug 15 10:48:13 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:48:13 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:48:13 symfony [info] {sfResponse} send content (21264 o)
+Aug 15 10:48:13 symfony [info] {sfTimerManager} Configuration 2.27 ms (10)
+Aug 15 10:48:13 symfony [info] {sfTimerManager} Action "category/list" 36.71 ms (1)
+Aug 15 10:48:13 symfony [info] {sfTimerManager} Database 2.01 ms (1)
+Aug 15 10:48:13 symfony [info] {sfTimerManager} View "Success" for "category/list" 12.19 ms (1)
+Aug 15 10:49:05 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:49:05 symfony [info] {sfContext} initialization
+Aug 15 10:49:06 symfony [info] {sfController} initialization
+Aug 15 10:49:06 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:49:06 symfony [info] {sfRequest} request parameters array (  'module' => 'category',  'action' => 'list',)
+Aug 15 10:49:06 symfony [info] {sfController} dispatch request
+Aug 15 10:49:06 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:49:06 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:49:06 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:49:06 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:49:06 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:49:06 symfony [info] {sfAction} call "categoryActions->executeList()"
+Aug 15 10:49:06 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:49:06 symfony [info] {sfCreole} prepareStatement(): SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:49:06 symfony [info] {sfCreole} executeQuery(): [2.04 ms] SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:49:06 symfony [info] {sfView} initialize view for "category/list"
+Aug 15 10:49:06 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/category/templates/listSuccess.php"
+Aug 15 10:49:06 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:49:06 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:49:06 symfony [info] {sfFilter} render to client
+Aug 15 10:49:06 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:49:06 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:49:06 symfony [info] {sfResponse} send content (21265 o)
+Aug 15 10:49:06 symfony [info] {sfTimerManager} Configuration 2.25 ms (10)
+Aug 15 10:49:06 symfony [info] {sfTimerManager} Action "category/list" 36.59 ms (1)
+Aug 15 10:49:06 symfony [info] {sfTimerManager} Database 2.03 ms (1)
+Aug 15 10:49:06 symfony [info] {sfTimerManager} View "Success" for "category/list" 12.31 ms (1)
+Aug 15 10:49:18 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:49:18 symfony [info] {sfContext} initialization
+Aug 15 10:49:18 symfony [info] {sfController} initialization
+Aug 15 10:49:18 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:49:18 symfony [info] {sfRequest} request parameters array (  'module' => 'category',  'action' => 'list',)
+Aug 15 10:49:18 symfony [info] {sfController} dispatch request
+Aug 15 10:49:18 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:49:18 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:49:18 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:49:18 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:49:18 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:49:18 symfony [info] {sfAction} call "categoryActions->executeList()"
+Aug 15 10:49:18 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:49:18 symfony [info] {sfCreole} prepareStatement(): SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:49:18 symfony [info] {sfCreole} executeQuery(): [2.03 ms] SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:49:18 symfony [info] {sfView} initialize view for "category/list"
+Aug 15 10:49:18 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/category/templates/listSuccess.php"
+Aug 15 10:49:18 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:49:18 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:49:18 symfony [info] {sfFilter} render to client
+Aug 15 10:49:18 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:49:18 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:49:18 symfony [info] {sfResponse} send content (21366 o)
+Aug 15 10:49:18 symfony [info] {sfTimerManager} Configuration 2.24 ms (10)
+Aug 15 10:49:18 symfony [info] {sfTimerManager} Action "category/list" 36.24 ms (1)
+Aug 15 10:49:18 symfony [info] {sfTimerManager} Database 2.02 ms (1)
+Aug 15 10:49:18 symfony [info] {sfTimerManager} View "Success" for "category/list" 13.35 ms (1)
+Aug 15 10:49:24 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:49:24 symfony [info] {sfContext} initialization
+Aug 15 10:49:24 symfony [info] {sfController} initialization
+Aug 15 10:49:24 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:49:24 symfony [info] {sfRequest} request parameters array (  'module' => 'category',  'action' => 'list',)
+Aug 15 10:49:24 symfony [info] {sfController} dispatch request
+Aug 15 10:49:24 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:49:24 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:49:24 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:49:24 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:49:24 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:49:24 symfony [info] {sfAction} call "categoryActions->executeList()"
+Aug 15 10:49:24 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:49:24 symfony [info] {sfCreole} prepareStatement(): SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:49:24 symfony [info] {sfCreole} executeQuery(): [2.13 ms] SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:49:24 symfony [info] {sfView} initialize view for "category/list"
+Aug 15 10:49:24 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/category/templates/listSuccess.php"
+Aug 15 10:49:24 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:49:24 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:49:24 symfony [info] {sfFilter} render to client
+Aug 15 10:49:24 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:49:24 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:49:24 symfony [info] {sfResponse} send content (21371 o)
+Aug 15 10:49:24 symfony [info] {sfTimerManager} Configuration 2.27 ms (10)
+Aug 15 10:49:24 symfony [info] {sfTimerManager} Action "category/list" 36.60 ms (1)
+Aug 15 10:49:24 symfony [info] {sfTimerManager} Database 2.12 ms (1)
+Aug 15 10:49:24 symfony [info] {sfTimerManager} View "Success" for "category/list" 12.85 ms (1)
+Aug 15 10:49:28 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:49:28 symfony [info] {sfContext} initialization
+Aug 15 10:49:28 symfony [info] {sfController} initialization
+Aug 15 10:49:28 symfony [info] {sfRouting} match route [default_index] "/:module"
+Aug 15 10:49:28 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'index',)
+Aug 15 10:49:28 symfony [info] {sfController} dispatch request
+Aug 15 10:49:28 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:49:28 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:49:28 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:49:28 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:49:28 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:49:28 symfony [info] {sfAction} call "addressesActions->executeIndex()"
+Aug 15 10:49:28 symfony [info] {sfAction} forward to action "addresses/list"
+Aug 15 10:49:28 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:49:28 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:49:28 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:49:28 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:49:28 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:49:28 symfony [info] {sfAction} call "addressesActions->executeList()"
+Aug 15 10:49:28 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:49:28 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:49:28 symfony [info] {sfCreole} executeQuery(): [2.10 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:49:28 symfony [info] {sfView} initialize view for "addresses/list"
+Aug 15 10:49:28 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/listSuccess.php"
+Aug 15 10:49:28 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:49:28 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:49:28 symfony [info] {sfFilter} render to client
+Aug 15 10:49:28 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:49:28 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:49:28 symfony [info] {sfResponse} send content (23614 o)
+Aug 15 10:49:28 symfony [info] {sfTimerManager} Configuration 2.91 ms (13)
+Aug 15 10:49:28 symfony [info] {sfTimerManager} Action "addresses/index" 59.13 ms (1)
+Aug 15 10:49:28 symfony [info] {sfTimerManager} Action "addresses/list" 37.78 ms (1)
+Aug 15 10:49:28 symfony [info] {sfTimerManager} Database 2.10 ms (1)
+Aug 15 10:49:28 symfony [info] {sfTimerManager} View "Success" for "addresses/list" 13.54 ms (1)
+Aug 15 10:49:29 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:49:29 symfony [info] {sfContext} initialization
+Aug 15 10:49:29 symfony [info] {sfController} initialization
+Aug 15 10:49:29 symfony [info] {sfRouting} match route [default_index] "/:module"
+Aug 15 10:49:29 symfony [info] {sfRequest} request parameters array (  'module' => 'category',  'action' => 'index',)
+Aug 15 10:49:29 symfony [info] {sfController} dispatch request
+Aug 15 10:49:29 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:49:29 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:49:29 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:49:29 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:49:29 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:49:29 symfony [info] {sfAction} call "categoryActions->executeIndex()"
+Aug 15 10:49:29 symfony [info] {sfAction} forward to action "category/list"
+Aug 15 10:49:29 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:49:29 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:49:29 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:49:29 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:49:29 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:49:29 symfony [info] {sfAction} call "categoryActions->executeList()"
+Aug 15 10:49:29 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:49:29 symfony [info] {sfCreole} prepareStatement(): SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:49:29 symfony [info] {sfCreole} executeQuery(): [2.04 ms] SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:49:29 symfony [info] {sfView} initialize view for "category/list"
+Aug 15 10:49:29 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/category/templates/listSuccess.php"
+Aug 15 10:49:29 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:49:29 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:49:29 symfony [info] {sfFilter} render to client
+Aug 15 10:49:29 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:49:29 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:49:29 symfony [info] {sfResponse} send content (23514 o)
+Aug 15 10:49:29 symfony [info] {sfTimerManager} Configuration 2.89 ms (13)
+Aug 15 10:49:29 symfony [info] {sfTimerManager} Action "category/index" 57.38 ms (1)
+Aug 15 10:49:29 symfony [info] {sfTimerManager} Action "category/list" 36.76 ms (1)
+Aug 15 10:49:29 symfony [info] {sfTimerManager} Database 2.03 ms (1)
+Aug 15 10:49:29 symfony [info] {sfTimerManager} View "Success" for "category/list" 12.97 ms (1)
+Aug 15 10:49:32 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:49:32 symfony [info] {sfContext} initialization
+Aug 15 10:49:32 symfony [info] {sfController} initialization
+Aug 15 10:49:32 symfony [info] {sfRouting} match route [default_index] "/:module"
+Aug 15 10:49:32 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'index',)
+Aug 15 10:49:32 symfony [info] {sfController} dispatch request
+Aug 15 10:49:32 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:49:32 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:49:32 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:49:32 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:49:32 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:49:32 symfony [info] {sfAction} call "addressesActions->executeIndex()"
+Aug 15 10:49:32 symfony [info] {sfAction} forward to action "addresses/list"
+Aug 15 10:49:32 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:49:32 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:49:32 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:49:32 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:49:32 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:49:32 symfony [info] {sfAction} call "addressesActions->executeList()"
+Aug 15 10:49:33 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:49:33 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:49:33 symfony [info] {sfCreole} executeQuery(): [2.13 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:49:33 symfony [info] {sfView} initialize view for "addresses/list"
+Aug 15 10:49:33 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/listSuccess.php"
+Aug 15 10:49:33 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:49:33 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:49:33 symfony [info] {sfFilter} render to client
+Aug 15 10:49:33 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:49:33 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:49:33 symfony [info] {sfResponse} send content (23609 o)
+Aug 15 10:49:33 symfony [info] {sfTimerManager} Configuration 2.96 ms (13)
+Aug 15 10:49:33 symfony [info] {sfTimerManager} Action "addresses/index" 57.84 ms (1)
+Aug 15 10:49:33 symfony [info] {sfTimerManager} Action "addresses/list" 37.13 ms (1)
+Aug 15 10:49:33 symfony [info] {sfTimerManager} Database 2.13 ms (1)
+Aug 15 10:49:33 symfony [info] {sfTimerManager} View "Success" for "addresses/list" 12.98 ms (1)
+Aug 15 10:49:34 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:49:34 symfony [info] {sfContext} initialization
+Aug 15 10:49:34 symfony [info] {sfController} initialization
+Aug 15 10:49:34 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:49:34 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'create',)
+Aug 15 10:49:34 symfony [info] {sfController} dispatch request
+Aug 15 10:49:34 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:49:34 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:49:34 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:49:34 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:49:34 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:49:34 symfony [info] {sfAction} call "addressesActions->executeCreate()"
+Aug 15 10:49:34 symfony [info] {sfAction} change template to "edit"
+Aug 15 10:49:34 symfony [info] {sfView} initialize view for "addresses/create"
+Aug 15 10:49:34 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/editSuccess.php"
+Aug 15 10:49:35 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:49:35 symfony [info] {sfCreole} prepareStatement(): SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:49:35 symfony [info] {sfCreole} executeQuery(): [2.17 ms] SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:49:35 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:49:35 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:49:35 symfony [info] {sfFilter} render to client
+Aug 15 10:49:35 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:49:35 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:49:35 symfony [info] {sfResponse} send content (22088 o)
+Aug 15 10:49:35 symfony [info] {sfTimerManager} Configuration 2.20 ms (10)
+Aug 15 10:49:35 symfony [info] {sfTimerManager} Action "addresses/create" 3.09 ms (1)
+Aug 15 10:49:35 symfony [info] {sfTimerManager} View "Success" for "addresses/create" 51.21 ms (1)
+Aug 15 10:49:35 symfony [info] {sfTimerManager} Database 2.16 ms (1)
+Aug 15 10:49:58 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:49:58 symfony [info] {sfContext} initialization
+Aug 15 10:49:58 symfony [info] {sfController} initialization
+Aug 15 10:49:58 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:49:58 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'update',  'id' => '',  'fullname' => '柏鋒',  'email_address' => 'coscup@coscup.com',  'home_address' => '122313123',  'phone' => '+88688686868686886',  'ab_category_id' => '1',  'commit' => 'save',)
+Aug 15 10:49:58 symfony [info] {sfController} dispatch request
+Aug 15 10:49:58 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:49:58 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:49:58 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:49:58 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:49:58 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:49:58 symfony [info] {sfAction} call "addressesActions->executeUpdate()"
+Aug 15 10:49:58 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:49:58 symfony [info] {sfCreole} beginning transaction.
+Aug 15 10:49:58 symfony [info] {sfCreole} beginning transaction.
+Aug 15 10:49:58 symfony [info] {sfCreole} prepareStatement(): INSERT INTO ab_addresses (FULLNAME,EMAIL_ADDRESS,HOME_ADDRESS,PHONE,AB_CATEGORY_ID,CREATED_AT,UPDATED_AT,ID) VALUES (?,?,?,?,?,?,?,?)
+Aug 15 10:49:58 symfony [info] {sfCreole} executeUpdate(): INSERT INTO ab_addresses (FULLNAME,EMAIL_ADDRESS,HOME_ADDRESS,PHONE,AB_CATEGORY_ID,CREATED_AT,UPDATED_AT,ID) VALUES ('柏鋒','coscup@coscup.com','122313123','+88688686868686886',1,1250304598,1250304598,1)
+Aug 15 10:49:58 symfony [info] {sfCreole} committing transaction.
+Aug 15 10:49:58 symfony [info] {sfCreole} committing transaction.
+Aug 15 10:49:58 symfony [info] {sfAction} redirect to "http://coscupdemo/frontend_dev.php/addresses/show/id/1"
+Aug 15 10:49:58 symfony [info] {sfResponse} send status "HTTP/1.0 302 Found"
+Aug 15 10:49:58 symfony [info] {sfResponse} send header "Location": "http://coscupdemo/frontend_dev.php/addresses/show/id/1"
+Aug 15 10:49:58 symfony [info] {sfResponse} send content (125 o)
+Aug 15 10:49:58 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:49:58 symfony [info] {sfContext} initialization
+Aug 15 10:49:58 symfony [info] {sfController} initialization
+Aug 15 10:49:58 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:49:58 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'show',  'id' => '1',)
+Aug 15 10:49:58 symfony [info] {sfController} dispatch request
+Aug 15 10:49:58 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:49:58 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:49:58 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:49:58 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:49:58 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:49:58 symfony [info] {sfAction} call "addressesActions->executeShow()"
+Aug 15 10:49:58 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:49:58 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses WHERE ab_addresses.ID=?
+Aug 15 10:49:58 symfony [info] {sfCreole} executeQuery(): [2.48 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses WHERE ab_addresses.ID=1
+Aug 15 10:49:58 symfony [info] {sfView} initialize view for "addresses/show"
+Aug 15 10:49:58 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/showSuccess.php"
+Aug 15 10:49:58 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:49:58 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:49:58 symfony [info] {sfFilter} render to client
+Aug 15 10:49:58 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:49:58 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:49:58 symfony [info] {sfResponse} send content (21966 o)
+Aug 15 10:49:58 symfony [info] {sfTimerManager} Configuration 2.37 ms (10)
+Aug 15 10:49:58 symfony [info] {sfTimerManager} Action "addresses/show" 38.41 ms (1)
+Aug 15 10:49:58 symfony [info] {sfTimerManager} Database 2.48 ms (1)
+Aug 15 10:49:58 symfony [info] {sfTimerManager} View "Success" for "addresses/show" 12.97 ms (1)
+Aug 15 10:50:01 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:50:01 symfony [info] {sfContext} initialization
+Aug 15 10:50:01 symfony [info] {sfController} initialization
+Aug 15 10:50:01 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:50:01 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'list',)
+Aug 15 10:50:01 symfony [info] {sfController} dispatch request
+Aug 15 10:50:01 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:50:01 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:50:01 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:50:01 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:50:01 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:50:01 symfony [info] {sfAction} call "addressesActions->executeList()"
+Aug 15 10:50:01 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:50:01 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:50:01 symfony [info] {sfCreole} executeQuery(): [2.56 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:50:01 symfony [info] {sfView} initialize view for "addresses/list"
+Aug 15 10:50:01 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/listSuccess.php"
+Aug 15 10:50:01 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:50:01 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:50:01 symfony [info] {sfFilter} render to client
+Aug 15 10:50:01 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:50:01 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:50:01 symfony [info] {sfResponse} send content (21728 o)
+Aug 15 10:50:01 symfony [info] {sfTimerManager} Configuration 2.22 ms (10)
+Aug 15 10:50:01 symfony [info] {sfTimerManager} Action "addresses/list" 39.12 ms (1)
+Aug 15 10:50:01 symfony [info] {sfTimerManager} Database 2.56 ms (1)
+Aug 15 10:50:01 symfony [info] {sfTimerManager} View "Success" for "addresses/list" 12.77 ms (1)
+Aug 15 10:50:04 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:50:04 symfony [info] {sfContext} initialization
+Aug 15 10:50:04 symfony [info] {sfController} initialization
+Aug 15 10:50:04 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:50:04 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'create',)
+Aug 15 10:50:04 symfony [info] {sfController} dispatch request
+Aug 15 10:50:04 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:50:04 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:50:04 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:50:04 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:50:04 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:50:04 symfony [info] {sfAction} call "addressesActions->executeCreate()"
+Aug 15 10:50:04 symfony [info] {sfAction} change template to "edit"
+Aug 15 10:50:04 symfony [info] {sfView} initialize view for "addresses/create"
+Aug 15 10:50:04 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/editSuccess.php"
+Aug 15 10:50:04 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:50:04 symfony [info] {sfCreole} prepareStatement(): SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:50:04 symfony [info] {sfCreole} executeQuery(): [2.12 ms] SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:50:04 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:50:04 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:50:04 symfony [info] {sfFilter} render to client
+Aug 15 10:50:04 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:50:04 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:50:04 symfony [info] {sfResponse} send content (22093 o)
+Aug 15 10:50:04 symfony [info] {sfTimerManager} Configuration 2.27 ms (10)
+Aug 15 10:50:04 symfony [info] {sfTimerManager} Action "addresses/create" 3.27 ms (1)
+Aug 15 10:50:04 symfony [info] {sfTimerManager} View "Success" for "addresses/create" 51.41 ms (1)
+Aug 15 10:50:04 symfony [info] {sfTimerManager} Database 2.11 ms (1)
+Aug 15 10:50:57 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:50:57 symfony [info] {sfContext} initialization
+Aug 15 10:50:57 symfony [info] {sfController} initialization
+Aug 15 10:50:57 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:50:57 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'create',)
+Aug 15 10:50:57 symfony [info] {sfController} dispatch request
+Aug 15 10:50:57 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:50:57 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:50:57 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:50:57 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:50:57 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:50:57 symfony [info] {sfAction} call "addressesActions->executeCreate()"
+Aug 15 10:50:57 symfony [info] {sfAction} change template to "edit"
+Aug 15 10:50:57 symfony [info] {sfView} initialize view for "addresses/create"
+Aug 15 10:50:57 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/editSuccess.php"
+Aug 15 10:50:57 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:50:57 symfony [info] {sfCreole} prepareStatement(): SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:50:57 symfony [info] {sfCreole} executeQuery(): [2.23 ms] SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:51:09 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:51:09 symfony [info] {sfContext} initialization
+Aug 15 10:51:09 symfony [info] {sfController} initialization
+Aug 15 10:51:09 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:51:09 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'create',)
+Aug 15 10:51:09 symfony [info] {sfController} dispatch request
+Aug 15 10:51:09 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:51:09 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:51:09 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:51:09 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:51:09 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:51:09 symfony [info] {sfAction} call "addressesActions->executeCreate()"
+Aug 15 10:51:09 symfony [info] {sfAction} change template to "edit"
+Aug 15 10:51:09 symfony [info] {sfView} initialize view for "addresses/create"
+Aug 15 10:51:09 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/editSuccess.php"
+Aug 15 10:51:09 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:51:09 symfony [info] {sfCreole} prepareStatement(): SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:51:09 symfony [info] {sfCreole} executeQuery(): [2.16 ms] SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:51:11 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:51:11 symfony [info] {sfContext} initialization
+Aug 15 10:51:11 symfony [info] {sfController} initialization
+Aug 15 10:51:11 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:51:11 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'create',)
+Aug 15 10:51:11 symfony [info] {sfController} dispatch request
+Aug 15 10:51:11 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:51:11 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:51:11 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:51:11 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:51:11 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:51:11 symfony [info] {sfAction} call "addressesActions->executeCreate()"
+Aug 15 10:51:11 symfony [info] {sfAction} change template to "edit"
+Aug 15 10:51:11 symfony [info] {sfView} initialize view for "addresses/create"
+Aug 15 10:51:11 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/editSuccess.php"
+Aug 15 10:51:11 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:51:11 symfony [info] {sfCreole} prepareStatement(): SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:51:11 symfony [info] {sfCreole} executeQuery(): [2.13 ms] SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:51:33 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:51:33 symfony [info] {sfContext} initialization
+Aug 15 10:51:33 symfony [info] {sfController} initialization
+Aug 15 10:51:33 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:51:33 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'create',)
+Aug 15 10:51:33 symfony [info] {sfController} dispatch request
+Aug 15 10:51:33 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:51:33 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:51:33 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:51:33 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:51:33 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:51:33 symfony [info] {sfAction} call "addressesActions->executeCreate()"
+Aug 15 10:51:33 symfony [info] {sfAction} change template to "edit"
+Aug 15 10:51:33 symfony [info] {sfView} initialize view for "addresses/create"
+Aug 15 10:51:33 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/editSuccess.php"
+Aug 15 10:51:33 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:51:33 symfony [info] {sfCreole} prepareStatement(): SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:51:33 symfony [info] {sfCreole} executeQuery(): [2.03 ms] SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 10:51:33 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:51:33 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:51:33 symfony [info] {sfFilter} render to client
+Aug 15 10:51:33 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:51:33 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:51:33 symfony [info] {sfResponse} send content (22333 o)
+Aug 15 10:51:33 symfony [info] {sfTimerManager} Configuration 2.25 ms (10)
+Aug 15 10:51:33 symfony [info] {sfTimerManager} Action "addresses/create" 3.22 ms (1)
+Aug 15 10:51:33 symfony [info] {sfTimerManager} View "Success" for "addresses/create" 51.20 ms (1)
+Aug 15 10:51:33 symfony [info] {sfTimerManager} Database 2.03 ms (1)
+Aug 15 10:51:42 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:51:42 symfony [info] {sfContext} initialization
+Aug 15 10:51:42 symfony [info] {sfController} initialization
+Aug 15 10:51:42 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:51:42 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'list',)
+Aug 15 10:51:42 symfony [info] {sfController} dispatch request
+Aug 15 10:51:42 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:51:42 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:51:42 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:51:42 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:51:42 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:51:42 symfony [info] {sfAction} call "addressesActions->executeList()"
+Aug 15 10:51:42 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:51:42 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:51:42 symfony [info] {sfCreole} executeQuery(): [2.17 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:51:42 symfony [info] {sfView} initialize view for "addresses/list"
+Aug 15 10:51:42 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/listSuccess.php"
+Aug 15 10:51:42 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:51:42 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:51:42 symfony [info] {sfFilter} render to client
+Aug 15 10:51:42 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:51:42 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:51:42 symfony [info] {sfResponse} send content (21725 o)
+Aug 15 10:51:42 symfony [info] {sfTimerManager} Configuration 2.30 ms (10)
+Aug 15 10:51:42 symfony [info] {sfTimerManager} Action "addresses/list" 37.69 ms (1)
+Aug 15 10:51:42 symfony [info] {sfTimerManager} Database 2.17 ms (1)
+Aug 15 10:51:42 symfony [info] {sfTimerManager} View "Success" for "addresses/list" 13.13 ms (1)
+Aug 15 10:52:04 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:52:04 symfony [info] {sfContext} initialization
+Aug 15 10:52:04 symfony [info] {sfController} initialization
+Aug 15 10:52:04 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:52:04 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'list',)
+Aug 15 10:52:04 symfony [info] {sfController} dispatch request
+Aug 15 10:52:04 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:52:04 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:52:04 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:52:04 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:52:04 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:52:04 symfony [info] {sfAction} call "addressesActions->executeList()"
+Aug 15 10:52:04 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:52:04 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:52:04 symfony [info] {sfCreole} executeQuery(): [2.16 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:52:04 symfony [info] {sfView} initialize view for "addresses/list"
+Aug 15 10:52:04 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/listSuccess.php"
+Aug 15 10:52:15 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:52:15 symfony [info] {sfContext} initialization
+Aug 15 10:52:15 symfony [info] {sfController} initialization
+Aug 15 10:52:15 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:52:15 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'list',)
+Aug 15 10:52:15 symfony [info] {sfController} dispatch request
+Aug 15 10:52:15 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:52:15 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:52:15 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:52:15 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:52:15 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:52:15 symfony [info] {sfAction} call "addressesActions->executeList()"
+Aug 15 10:52:15 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:52:15 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:52:15 symfony [info] {sfCreole} executeQuery(): [2.15 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:52:15 symfony [info] {sfView} initialize view for "addresses/list"
+Aug 15 10:52:15 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/listSuccess.php"
+Aug 15 10:52:21 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:52:21 symfony [info] {sfContext} initialization
+Aug 15 10:52:21 symfony [info] {sfController} initialization
+Aug 15 10:52:21 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:52:21 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'list',)
+Aug 15 10:52:21 symfony [info] {sfController} dispatch request
+Aug 15 10:52:21 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:52:21 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:52:21 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:52:21 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:52:21 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:52:21 symfony [info] {sfAction} call "addressesActions->executeList()"
+Aug 15 10:52:21 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:52:21 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:52:21 symfony [info] {sfCreole} executeQuery(): [2.21 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:52:21 symfony [info] {sfView} initialize view for "addresses/list"
+Aug 15 10:52:21 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/listSuccess.php"
+Aug 15 10:52:22 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:52:22 symfony [info] {sfContext} initialization
+Aug 15 10:52:22 symfony [info] {sfController} initialization
+Aug 15 10:52:22 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:52:22 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'list',)
+Aug 15 10:52:22 symfony [info] {sfController} dispatch request
+Aug 15 10:52:22 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:52:22 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:52:22 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:52:22 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:52:22 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:52:22 symfony [info] {sfAction} call "addressesActions->executeList()"
+Aug 15 10:52:22 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:52:22 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:52:22 symfony [info] {sfCreole} executeQuery(): [2.22 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:52:22 symfony [info] {sfView} initialize view for "addresses/list"
+Aug 15 10:52:22 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/listSuccess.php"
+Aug 15 10:52:36 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 10:52:36 symfony [info] {sfContext} initialization
+Aug 15 10:52:36 symfony [info] {sfController} initialization
+Aug 15 10:52:36 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 10:52:36 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'list',)
+Aug 15 10:52:36 symfony [info] {sfController} dispatch request
+Aug 15 10:52:36 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 10:52:36 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 10:52:36 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 10:52:36 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 10:52:36 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 10:52:36 symfony [info] {sfAction} call "addressesActions->executeList()"
+Aug 15 10:52:36 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 10:52:36 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:52:36 symfony [info] {sfCreole} executeQuery(): [2.18 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 10:52:36 symfony [info] {sfView} initialize view for "addresses/list"
+Aug 15 10:52:36 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/listSuccess.php"
+Aug 15 10:52:36 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:52:36 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 10:52:36 symfony [info] {sfFilter} render to client
+Aug 15 10:52:36 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 10:52:36 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 10:52:36 symfony [info] {sfResponse} send content (21652 o)
+Aug 15 10:52:36 symfony [info] {sfTimerManager} Configuration 2.26 ms (10)
+Aug 15 10:52:36 symfony [info] {sfTimerManager} Action "addresses/list" 37.75 ms (1)
+Aug 15 10:52:36 symfony [info] {sfTimerManager} Database 2.18 ms (1)
+Aug 15 10:52:36 symfony [info] {sfTimerManager} View "Success" for "addresses/list" 12.74 ms (1)
+Aug 15 12:52:01 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 12:52:01 symfony [info] {sfContext} initialization
+Aug 15 12:52:02 symfony [info] {sfController} initialization
+Aug 15 12:52:02 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 12:52:02 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'list',)
+Aug 15 12:52:02 symfony [info] {sfController} dispatch request
+Aug 15 12:52:03 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 12:52:03 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 12:52:03 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 12:52:03 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 12:52:03 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 12:52:03 symfony [info] {sfAction} call "addressesActions->executeList()"
+Aug 15 12:52:05 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 12:52:05 symfony [err] {sfException}  [wrapped: Could not connect [Native Error: pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host &quot;localhost&quot; and accepting
+	TCP/IP connections on port 5432?] [User Info: host=localhost dbname='coscupdemo' user='coscupdemo' password='*********'] [User Info: Array]] in /opt/local/lib/php/symfony/vendor/propel/Propel.php line 489
+Aug 15 12:55:12 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 12:55:12 symfony [info] {sfContext} initialization
+Aug 15 12:55:12 symfony [info] {sfController} initialization
+Aug 15 12:55:12 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 12:55:12 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'list',)
+Aug 15 12:55:12 symfony [info] {sfController} dispatch request
+Aug 15 12:55:12 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 12:55:12 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 12:55:12 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 12:55:12 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 12:55:12 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 12:55:12 symfony [info] {sfAction} call "addressesActions->executeList()"
+Aug 15 12:55:12 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 12:55:12 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 12:55:12 symfony [info] {sfCreole} executeQuery(): [165.31 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 12:55:13 symfony [info] {sfView} initialize view for "addresses/list"
+Aug 15 12:55:13 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/listSuccess.php"
+Aug 15 12:55:13 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 12:55:13 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 12:55:13 symfony [info] {sfFilter} render to client
+Aug 15 12:55:13 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 12:55:13 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 12:55:13 symfony [info] {sfResponse} send content (21659 o)
+Aug 15 12:55:13 symfony [info] {sfTimerManager} Configuration 2.63 ms (10)
+Aug 15 12:55:13 symfony [info] {sfTimerManager} Action "addresses/list" 547.86 ms (1)
+Aug 15 12:55:13 symfony [info] {sfTimerManager} Database 165.29 ms (1)
+Aug 15 12:55:13 symfony [info] {sfTimerManager} View "Success" for "addresses/list" 111.03 ms (1)
+Aug 15 12:55:50 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 12:55:50 symfony [info] {sfContext} initialization
+Aug 15 12:55:50 symfony [info] {sfController} initialization
+Aug 15 12:55:50 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 12:55:50 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'show',  'id' => '1',)
+Aug 15 12:55:50 symfony [info] {sfController} dispatch request
+Aug 15 12:55:50 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 12:55:50 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 12:55:50 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 12:55:50 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 12:55:50 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 12:55:50 symfony [info] {sfAction} call "addressesActions->executeShow()"
+Aug 15 12:55:50 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 12:55:50 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses WHERE ab_addresses.ID=?
+Aug 15 12:55:50 symfony [info] {sfCreole} executeQuery(): [57.83 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses WHERE ab_addresses.ID=1
+Aug 15 12:55:50 symfony [info] {sfView} initialize view for "addresses/show"
+Aug 15 12:55:50 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/showSuccess.php"
+Aug 15 12:55:50 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 12:55:50 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 12:55:50 symfony [info] {sfFilter} render to client
+Aug 15 12:55:50 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 12:55:50 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 12:55:50 symfony [info] {sfResponse} send content (21967 o)
+Aug 15 12:55:50 symfony [info] {sfTimerManager} Configuration 2.41 ms (10)
+Aug 15 12:55:50 symfony [info] {sfTimerManager} Action "addresses/show" 95.07 ms (1)
+Aug 15 12:55:50 symfony [info] {sfTimerManager} Database 57.83 ms (1)
+Aug 15 12:55:50 symfony [info] {sfTimerManager} View "Success" for "addresses/show" 27.55 ms (1)
+Aug 15 12:55:52 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 12:55:52 symfony [info] {sfContext} initialization
+Aug 15 12:55:52 symfony [info] {sfController} initialization
+Aug 15 12:55:52 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 12:55:52 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'edit',  'id' => '1',)
+Aug 15 12:55:52 symfony [info] {sfController} dispatch request
+Aug 15 12:55:52 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 12:55:52 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 12:55:52 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 12:55:52 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 12:55:52 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 12:55:52 symfony [info] {sfAction} call "addressesActions->executeEdit()"
+Aug 15 12:55:52 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 12:55:52 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses WHERE ab_addresses.ID=?
+Aug 15 12:55:52 symfony [info] {sfCreole} executeQuery(): [2.91 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses WHERE ab_addresses.ID=1
+Aug 15 12:55:52 symfony [info] {sfView} initialize view for "addresses/edit"
+Aug 15 12:55:52 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/editSuccess.php"
+Aug 15 12:55:52 symfony [info] {sfCreole} prepareStatement(): SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 12:55:52 symfony [info] {sfCreole} executeQuery(): [98.79 ms] SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 12:56:51 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 12:56:51 symfony [info] {sfContext} initialization
+Aug 15 12:56:51 symfony [info] {sfController} initialization
+Aug 15 12:56:51 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 12:56:51 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'edit',  'id' => '1',)
+Aug 15 12:56:51 symfony [info] {sfController} dispatch request
+Aug 15 12:56:51 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 12:56:51 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 12:56:51 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 12:56:51 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 12:56:51 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 12:56:51 symfony [info] {sfAction} call "addressesActions->executeEdit()"
+Aug 15 12:56:51 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 12:56:51 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses WHERE ab_addresses.ID=?
+Aug 15 12:56:51 symfony [info] {sfCreole} executeQuery(): [2.47 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses WHERE ab_addresses.ID=1
+Aug 15 12:56:51 symfony [info] {sfView} initialize view for "addresses/edit"
+Aug 15 12:56:51 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/editSuccess.php"
+Aug 15 12:56:51 symfony [info] {sfCreole} prepareStatement(): SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 12:56:51 symfony [info] {sfCreole} executeQuery(): [0.91 ms] SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 12:56:52 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 12:56:52 symfony [info] {sfContext} initialization
+Aug 15 12:56:52 symfony [info] {sfController} initialization
+Aug 15 12:56:52 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 12:56:52 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'edit',  'id' => '1',)
+Aug 15 12:56:52 symfony [info] {sfController} dispatch request
+Aug 15 12:56:52 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 12:56:52 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 12:56:52 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 12:56:52 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 12:56:52 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 12:56:52 symfony [info] {sfAction} call "addressesActions->executeEdit()"
+Aug 15 12:56:52 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 12:56:52 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses WHERE ab_addresses.ID=?
+Aug 15 12:56:52 symfony [info] {sfCreole} executeQuery(): [2.41 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses WHERE ab_addresses.ID=1
+Aug 15 12:56:52 symfony [info] {sfView} initialize view for "addresses/edit"
+Aug 15 12:56:52 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/editSuccess.php"
+Aug 15 12:56:52 symfony [info] {sfCreole} prepareStatement(): SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 12:56:52 symfony [info] {sfCreole} executeQuery(): [0.90 ms] SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 12:57:35 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 12:57:35 symfony [info] {sfContext} initialization
+Aug 15 12:57:35 symfony [info] {sfController} initialization
+Aug 15 12:57:35 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 12:57:35 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'edit',  'id' => '1',)
+Aug 15 12:57:35 symfony [info] {sfController} dispatch request
+Aug 15 12:57:35 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 12:57:35 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 12:57:35 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 12:57:35 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 12:57:35 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 12:57:35 symfony [info] {sfAction} call "addressesActions->executeEdit()"
+Aug 15 12:57:35 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 12:57:35 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses WHERE ab_addresses.ID=?
+Aug 15 12:57:35 symfony [info] {sfCreole} executeQuery(): [2.44 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses WHERE ab_addresses.ID=1
+Aug 15 12:57:35 symfony [info] {sfView} initialize view for "addresses/edit"
+Aug 15 12:57:35 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/editSuccess.php"
+Aug 15 12:57:35 symfony [info] {sfCreole} prepareStatement(): SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 12:57:35 symfony [info] {sfCreole} executeQuery(): [0.89 ms] SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category
+Aug 15 12:57:35 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 12:57:35 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 12:57:35 symfony [info] {sfFilter} render to client
+Aug 15 12:57:35 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 12:57:35 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 12:57:35 symfony [info] {sfResponse} send content (23787 o)
+Aug 15 12:57:35 symfony [info] {sfTimerManager} Configuration 2.37 ms (10)
+Aug 15 12:57:35 symfony [info] {sfTimerManager} Action "addresses/edit" 38.67 ms (1)
+Aug 15 12:57:35 symfony [info] {sfTimerManager} Database 3.33 ms (2)
+Aug 15 12:57:35 symfony [info] {sfTimerManager} View "Success" for "addresses/edit" 23.01 ms (1)
+Aug 15 12:58:05 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 12:58:05 symfony [info] {sfContext} initialization
+Aug 15 12:58:05 symfony [info] {sfController} initialization
+Aug 15 12:58:05 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 12:58:05 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'show',  'id' => '1',)
+Aug 15 12:58:05 symfony [info] {sfController} dispatch request
+Aug 15 12:58:05 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 12:58:05 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 12:58:05 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 12:58:05 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 12:58:05 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 12:58:05 symfony [info] {sfAction} call "addressesActions->executeShow()"
+Aug 15 12:58:05 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 12:58:05 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses WHERE ab_addresses.ID=?
+Aug 15 12:58:05 symfony [info] {sfCreole} executeQuery(): [2.44 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses WHERE ab_addresses.ID=1
+Aug 15 12:58:05 symfony [info] {sfView} initialize view for "addresses/show"
+Aug 15 12:58:05 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/showSuccess.php"
+Aug 15 12:58:05 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 12:58:05 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 12:58:05 symfony [info] {sfFilter} render to client
+Aug 15 12:58:05 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 12:58:05 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 12:58:05 symfony [info] {sfResponse} send content (21969 o)
+Aug 15 12:58:05 symfony [info] {sfTimerManager} Configuration 2.29 ms (10)
+Aug 15 12:58:05 symfony [info] {sfTimerManager} Action "addresses/show" 38.55 ms (1)
+Aug 15 12:58:05 symfony [info] {sfTimerManager} Database 2.43 ms (1)
+Aug 15 12:58:05 symfony [info] {sfTimerManager} View "Success" for "addresses/show" 13.77 ms (1)
+Aug 15 12:58:07 symfony [warning] {sfPhpConfigHandler} php.ini "magic_quotes_gpc" key is better set to "false" (current value is "'1'" - php.ini location: "/opt/local/etc/php.ini").
+Aug 15 12:58:07 symfony [info] {sfContext} initialization
+Aug 15 12:58:07 symfony [info] {sfController} initialization
+Aug 15 12:58:07 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Aug 15 12:58:07 symfony [info] {sfRequest} request parameters array (  'module' => 'addresses',  'action' => 'list',)
+Aug 15 12:58:07 symfony [info] {sfController} dispatch request
+Aug 15 12:58:07 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Aug 15 12:58:07 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Aug 15 12:58:07 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Aug 15 12:58:07 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Aug 15 12:58:07 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Aug 15 12:58:07 symfony [info] {sfAction} call "addressesActions->executeList()"
+Aug 15 12:58:07 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'coscupdemo',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'demo',   'persistent' => NULL,   'phptype' => 'pgsql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'coscupdemo', ), FLAGS: 0
+Aug 15 12:58:07 symfony [info] {sfCreole} prepareStatement(): SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 12:58:07 symfony [info] {sfCreole} executeQuery(): [2.19 ms] SELECT ab_addresses.ID, ab_addresses.FULLNAME, ab_addresses.EMAIL_ADDRESS, ab_addresses.HOME_ADDRESS, ab_addresses.PHONE, ab_addresses.AB_CATEGORY_ID, ab_addresses.CREATED_AT, ab_addresses.UPDATED_AT FROM ab_addresses
+Aug 15 12:58:07 symfony [info] {sfView} initialize view for "addresses/list"
+Aug 15 12:58:07 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/modules/addresses/templates/listSuccess.php"
+Aug 15 12:58:07 symfony [info] {sfCreole} prepareStatement(): SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category WHERE ab_category.ID=?
+Aug 15 12:58:07 symfony [info] {sfCreole} executeQuery(): [24.45 ms] SELECT ab_category.ID, ab_category.CAT_NAME, ab_category.CREATED_AT, ab_category.UPDATED_AT FROM ab_category WHERE ab_category.ID=1
+Aug 15 12:58:07 symfony [info] {sfView} decorate content with "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 12:58:07 symfony [info] {sfView} render "/Users/takizo/Sites/coscupdemo/apps/frontend/templates/layout.php"
+Aug 15 12:58:07 symfony [info] {sfFilter} render to client
+Aug 15 12:58:07 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Aug 15 12:58:07 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Aug 15 12:58:07 symfony [info] {sfResponse} send content (23045 o)
+Aug 15 12:58:07 symfony [info] {sfTimerManager} Configuration 2.25 ms (10)
+Aug 15 12:58:07 symfony [info] {sfTimerManager} Action "addresses/list" 37.85 ms (1)
+Aug 15 12:58:07 symfony [info] {sfTimerManager} Database 26.63 ms (2)
+Aug 15 12:58:07 symfony [info] {sfTimerManager} View "Success" for "addresses/list" 45.34 ms (1)
